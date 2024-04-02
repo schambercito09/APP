@@ -1,7 +1,6 @@
 const fs = require("fs");
 const crypto = require("crypto");
 
-
 class ProductManager {
   constructor() {
     this.path = "./fs/files/products.json";
@@ -19,125 +18,156 @@ class ProductManager {
   }
 
   async create(data) {
-    //agregar estructura de try catch
-    const product = {
-      id: crypto.randomBytes(12).toString("hex"),
-      title:data.title,
-      photo:
-        data.photo ||
-        "https://upload.wikimedia.org/wikipedia/commons/2/2c/Default_pfp.svg",
-        category:data.category,
-        price:data.price,
-        stock:data.stock,
-    };
+    try {
+      const product = {
+        id: crypto.randomBytes(12).toString("hex"),
+        title: data.title,
+        photo:
+          data.photo ||
+          "https://upload.wikimedia.org/wikipedia/commons/2/2c/Default_pfp.svg",
+        category: data.category,
+        price: data.price,
+        stock: data.stock,
+      };
 
-    if (!data.title || !data.category || !data.price || !data.stock) {
-      console.log("No se creo el prodcuto, intentelo de nuevo.");
-    } else {
-      let products = await fs.promises.readFile(this.path, "utf-8");
-      products = JSON.parse(products);
-      products.push(product);
-      console.log("Producto Creado");
-      products = JSON.stringify(products, null, 2);
-      await fs.promises.writeFile(this.path, products);
+      if (!data.title || !data.category || !data.price || !data.stock) {
+        throw new Error("Faltan datos para crear el producto");
+      } else {
+        let products = await fs.promises.readFile(this.path, "utf-8");
+        products = JSON.parse(products);
+        products.push(product);
+        console.log("Producto Creado");
+        products = JSON.stringify(products, null, 2);
+        await fs.promises.writeFile(this.path, products);
+      }
+    } catch (error) {
+      throw error;
     }
   }
+
   async read() {
-    let products = await fs.promises.readFile(this.path, "utf-8");
-    products = JSON.parse(products);
-    return products;
-    //agregar try catch y condicional en caso de no encontrar usuarios
+    try {
+      let products = await fs.promises.readFile(this.path, "utf-8");
+      products = JSON.parse(products);
+
+      if (!(products && products.length > 0)) {
+        throw new Error("No se encontraron productos");
+      } else {
+        return products;
+      }
+    } catch (error) {
+      throw error;
+    }
   }
+
   async readOne(id) {
-    let products = await fs.promises.readFile(this.path, "utf-8");
-    products = JSON.parse(products);
-    return products.find((each) => each.id === id);
-    //agregar try catch y condicional en caso de no encontrar el usuario
+    try {
+      let products = await fs.promises.readFile(this.path, "utf-8");
+      products = JSON.parse(products);
+
+      const product = products.find((each) => each.id === id);
+
+      if (!product) {
+        throw new Error("Producto no encontrado");
+      } else {
+        return product;
+      }
+    } catch (error) {
+      throw error;
+    }
   }
+
   async destroy(id) {
-    let products = await fs.promises.readFile(this.path, "utf-8");
-    products = JSON.parse(products);
-    const filtered = products.filter((each) => each.id !== id);
-    await fs.promises.writeFile(filtered);
-    console.log(id + "eliminado");
-    //agregar try catch y condicional en caso de no encontrar el usuario
+    try {
+      let products = await fs.promises.readFile(this.path, "utf-8");
+      products = JSON.parse(products);
+      const filtered = products.filter((each) => each.id !== id);
+
+      if (filtered.length === products.length) {
+        throw new Error("Producto no encontrado");
+      } else {
+        await fs.promises.writeFile(this.path, JSON.stringify(filtered));
+        console.log(id + " eliminado");
+      }
+    } catch (error) {
+      throw error;
+    }
   }
 }
 
 async function test() {
   const gestorDeProductos = new ProductManager();
   await gestorDeProductos.create({
-    title:"zapatilla-white",
+    title: "zapatilla-white",
     photo: "zapatilla-white.jpg",
-    category:"calzado",
+    category: "calzado",
     price: 100,
     stock: 1000,
   });
   await gestorDeProductos.create({
-    title:"remera-white",
+    title: "remera-white",
     photo: "remera-white.jpg",
-    category:"indumentaria",
+    category: "indumentaria",
     price: 20,
     stock: 500,
   });
   await gestorDeProductos.create({
-    title:"pantalon-white",
+    title: "pantalon-white",
     photo: "pantalon-white.jpg",
-    category:"indumentaria",
+    category: "indumentaria",
     price: 30,
     stock: 600,
   });
   await gestorDeProductos.create({
-    title:"gorra-white",
+    title: "gorra-white",
     photo: "gorra-white.jpg",
-    category:"accesorios",
+    category: "accesorios",
     price: 10,
     stock: 1200,
   });
   await gestorDeProductos.create({
-    title:"guantes-white",
+    title: "guantes-white",
     photo: "guantes-white.jpg",
-    category:"accesorios",
+    category: "accesorios",
     price: 8,
     stock: 200,
   });
   await gestorDeProductos.create({
-    title:"zapatilla-black",
+    title: "zapatilla-black",
     photo: "zapatilla-black.jpg",
-    category:"calzado",
+    category: "calzado",
     price: 100,
     stock: 1000,
   });
   await gestorDeProductos.create({
-    title:"remera-black",
+    title: "remera-black",
     photo: "remera-black.jpg",
-    category:"indumentaria",
+    category: "indumentaria",
     price: 20,
     stock: 500,
   });
   await gestorDeProductos.create({
-    title:"pantalon-black",
+    title: "pantalon-black",
     photo: "pantalon-black.jpg",
-    category:"indumentaria",
+    category: "indumentaria",
     price: 30,
     stock: 600,
   });
   await gestorDeProductos.create({
-    title:"gorra-black",
+    title: "gorra-black",
     photo: "gorra-black.jpg",
-    category:"accesorios",
+    category: "accesorios",
     price: 10,
     stock: 1200,
   });
   await gestorDeProductos.create({
-    title:"guantes-black",
+    title: "guantes-black",
     photo: "guantes-black.jpg",
-    category:"accesorios",
+    category: "accesorios",
     price: 8,
     stock: 200,
   });
-  console.log( await gestorDeProductos.read());
-  console.log( await gestorDeProductos.readOne("64b3f2c7496bf149c3903fa6"))
-
+  console.log(await gestorDeProductos.read());
+  console.log(await gestorDeProductos.readOne("64b3f2c7496bf149c3903fa6"));
 }
 test();
