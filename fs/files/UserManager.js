@@ -1,5 +1,5 @@
-const fs = require("fs");
-const crypto = require("crypto");
+import fs from "fs";
+import crypto from "crypto";
 
 class UserManager {
   constructor() {
@@ -44,12 +44,17 @@ class UserManager {
     }
   }
 
-  async read() {
+  async read(ro) {
     try {
       let users = await fs.promises.readFile(this.path, "utf-8");
       users = JSON.parse(users);
+
+      if (ro !== undefined) {
+        users = users.filter((each) => each.role === ro);
+      }
+
       if (users.length === 0) {
-        throw new Error("No se encontraron usuarios");
+        return null;
       } else {
         return users;
       }
@@ -120,4 +125,6 @@ async function test() {
   console.log(await usersManager.read());
   console.log(await usersManager.readOne("64b3f2c7496bf149c3903fa6"));
 }
-test();
+//test();
+const userManager = new UserManager();
+export default userManager;

@@ -1,5 +1,5 @@
-const fs = require("fs");
-const crypto = require("crypto");
+import fs from "fs";
+import crypto from "crypto";
 
 class ProductManager {
   constructor() {
@@ -45,13 +45,20 @@ class ProductManager {
     }
   }
 
-  async read() {
+  async read(cat) {
     try {
       let products = await fs.promises.readFile(this.path, "utf-8");
       products = JSON.parse(products);
-
-      if (!(products && products.length > 0)) {
-        throw new Error("No se encontraron productos");
+  
+      // Verificar si se proporciona una categoría
+      if (cat !== undefined) {
+        // Filtrar productos por categoría
+        products = products.filter(each => each.category === cat);
+      }
+  
+      // Devolver todos los productos si no se proporciona ninguna categoría
+      if (products.length === 0) {
+        return null;
       } else {
         return products;
       }
@@ -59,6 +66,8 @@ class ProductManager {
       throw error;
     }
   }
+  
+  
 
   async readOne(id) {
     try {
@@ -167,7 +176,80 @@ async function test() {
     price: 8,
     stock: 200,
   });
+  await gestorDeProductos.create({
+    title: "zapatilla-grey",
+    photo: "zapatilla-grey.jpg",
+    category: "calzado",
+    price: 100,
+    stock: 1000,
+  });
+  await gestorDeProductos.create({
+    title: "remera-grey",
+    photo: "remera-grey.jpg",
+    category: "indumentaria",
+    price: 20,
+    stock: 500,
+  });
+  await gestorDeProductos.create({
+    title: "pantalon-grey",
+    photo: "pantalon-grey.jpg",
+    category: "indumentaria",
+    price: 30,
+    stock: 600,
+  });
+  await gestorDeProductos.create({
+    title: "gorra-grey",
+    photo: "gorra-grey.jpg",
+    category: "accesorios",
+    price: 10,
+    stock: 1200,
+  });
+  await gestorDeProductos.create({
+    title: "guantes-grey",
+    photo: "guantes-grey.jpg",
+    category: "accesorios",
+    price: 8,
+    stock: 200,
+  });
+  await gestorDeProductos.create({
+    title: "zapatilla-blue",
+    photo: "zapatilla-blue.jpg",
+    category: "calzado",
+    price: 100,
+    stock: 1000,
+  });
+  await gestorDeProductos.create({
+    title: "remera-blue",
+    photo: "remera-blue.jpg",
+    category: "indumentaria",
+    price: 20,
+    stock: 500,
+  });
+  await gestorDeProductos.create({
+    title: "pantalon-blue",
+    photo: "pantalon-blue.jpg",
+    category: "indumentaria",
+    price: 30,
+    stock: 600,
+  });
+  await gestorDeProductos.create({
+    title: "gorra-blue",
+    photo: "gorra-blue.jpg",
+    category: "accesorios",
+    price: 10,
+    stock: 1200,
+  });
+  await gestorDeProductos.create({
+    title: "guantes-blue",
+    photo: "guantes-blue.jpg",
+    category: "accesorios",
+    price: 8,
+    stock: 200,
+  });
   console.log(await gestorDeProductos.read());
   console.log(await gestorDeProductos.readOne("64b3f2c7496bf149c3903fa6"));
 }
-test();
+
+//test()
+const productManager = new ProductManager();
+export default productManager;
