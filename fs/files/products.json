@@ -1,0 +1,162 @@
+[
+  {
+    "id": "2a4d878d02bf3867d6c39432",
+    "title": "zapatilla-white",
+    "photo": "zapatilla-white.jpg",
+    "category": "calzado",
+    "price": 100,
+    "stock": 1000
+  },
+  {
+    "id": "95788a9293aaa80ce93f2ad4",
+    "title": "remera-white",
+    "photo": "remera-white.jpg",
+    "category": "indumentaria",
+    "price": 20,
+    "stock": 500
+  },
+  {
+    "id": "c96e28caf5709e92bdbeda96",
+    "title": "pantalon-white",
+    "photo": "pantalon-white.jpg",
+    "category": "indumentaria",
+    "price": 30,
+    "stock": 600
+  },
+  {
+    "id": "34096345882d4cb42c58c95d",
+    "title": "gorra-white",
+    "photo": "gorra-white.jpg",
+    "category": "accesorios",
+    "price": 10,
+    "stock": 1200
+  },
+  {
+    "id": "b7728a4880a5b60a8ff871a4",
+    "title": "guantes-white",
+    "photo": "guantes-white.jpg",
+    "category": "accesorios",
+    "price": 8,
+    "stock": 200
+  },
+  {
+    "id": "826900abe5149588c5765f10",
+    "title": "zapatilla-black",
+    "photo": "zapatilla-black.jpg",
+    "category": "calzado",
+    "price": 100,
+    "stock": 1000
+  },
+  {
+    "id": "348da240f5619bad9e61cbd0",
+    "title": "remera-black",
+    "photo": "remera-black.jpg",
+    "category": "indumentaria",
+    "price": 20,
+    "stock": 500
+  },
+  {
+    "id": "0484b96997128cd680872375",
+    "title": "pantalon-black",
+    "photo": "pantalon-black.jpg",
+    "category": "indumentaria",
+    "price": 30,
+    "stock": 600
+  },
+  {
+    "id": "7a557215b7a3c3cccb3dfa0f",
+    "title": "gorra-black",
+    "photo": "gorra-black.jpg",
+    "category": "accesorios",
+    "price": 10,
+    "stock": 1200
+  },
+  {
+    "id": "444143b5544da34b0cbe0971",
+    "title": "guantes-black",
+    "photo": "guantes-black.jpg",
+    "category": "accesorios",
+    "price": 8,
+    "stock": 200
+  },
+  {
+    "id": "e89a7aca3886ea09aeb77450",
+    "title": "zapatilla-grey",
+    "photo": "zapatilla-grey.jpg",
+    "category": "calzado",
+    "price": 100,
+    "stock": 1000
+  },
+  {
+    "id": "ba5e3e4117ad551ca772299d",
+    "title": "remera-grey",
+    "photo": "remera-grey.jpg",
+    "category": "indumentaria",
+    "price": 20,
+    "stock": 500
+  },
+  {
+    "id": "2eec10d2a40cf12273d0baae",
+    "title": "pantalon-grey",
+    "photo": "pantalon-grey.jpg",
+    "category": "indumentaria",
+    "price": 30,
+    "stock": 600
+  },
+  {
+    "id": "1a421720ed3ae55535fce0c4",
+    "title": "gorra-grey",
+    "photo": "gorra-grey.jpg",
+    "category": "accesorios",
+    "price": 10,
+    "stock": 1200
+  },
+  {
+    "id": "6ae491a8307cd87b01abc651",
+    "title": "guantes-grey",
+    "photo": "guantes-grey.jpg",
+    "category": "accesorios",
+    "price": 8,
+    "stock": 200
+  },
+  {
+    "id": "5dd83ed78c69499f4c5d5b05",
+    "title": "zapatilla-blue",
+    "photo": "zapatilla-blue.jpg",
+    "category": "calzado",
+    "price": 100,
+    "stock": 1000
+  },
+  {
+    "id": "facdfe792f344c5b967e68d5",
+    "title": "remera-blue",
+    "photo": "remera-blue.jpg",
+    "category": "indumentaria",
+    "price": 20,
+    "stock": 500
+  },
+  {
+    "id": "63981c2acc6b3cc8f84edb17",
+    "title": "pantalon-blue",
+    "photo": "pantalon-blue.jpg",
+    "category": "indumentaria",
+    "price": 30,
+    "stock": 600
+  },
+  {
+    "id": "bd484d406a0e0237c28132d1",
+    "title": "gorra-blue",
+    "photo": "gorra-blue.jpg",
+    "category": "accesorios",
+    "price": 10,
+    "stock": 1200
+  },
+  {
+    "id": "ba18c45700f5a2d3019f7d35",
+    "title": "guantes-blue",
+    "photo": "guantes-blue.jpg",
+    "category": "accesorios",
+    "price": 8,
+    "stock": 200
+  }
+]
