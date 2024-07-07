@@ -73,11 +73,7 @@ class ProductManager {
 
       const product = products.find((each) => each.id === id);
 
-      if (!product) {
-        throw new Error("Producto no encontrado");
-      } else {
-        return product;
-      }
+      return product;
     } catch (error) {
       throw error;
     }

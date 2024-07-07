@@ -2,161 +2,321 @@
   {
     "id": "2a4d878d02bf3867d6c39432",
     "title": "zapatilla-white",
-    "photo": "zapatilla-white.jpg",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/49852affde7f49dcb970a9ae017c284e_9366/YEEZY_BOOST_350_V2_Blanco_EF2905_01_standard.jpg",
     "category": "calzado",
     "price": 100,
     "stock": 1000
-  },
-  {
-    "id": "95788a9293aaa80ce93f2ad4",
-    "title": "remera-white",
-    "photo": "remera-white.jpg",
-    "category": "indumentaria",
-    "price": 20,
-    "stock": 500
-  },
-  {
-    "id": "c96e28caf5709e92bdbeda96",
-    "title": "pantalon-white",
-    "photo": "pantalon-white.jpg",
-    "category": "indumentaria",
-    "price": 30,
-    "stock": 600
-  },
-  {
-    "id": "34096345882d4cb42c58c95d",
-    "title": "gorra-white",
-    "photo": "gorra-white.jpg",
-    "category": "accesorios",
-    "price": 10,
-    "stock": 1200
-  },
-  {
-    "id": "b7728a4880a5b60a8ff871a4",
-    "title": "guantes-white",
-    "photo": "guantes-white.jpg",
-    "category": "accesorios",
-    "price": 8,
-    "stock": 200
   },
   {
     "id": "826900abe5149588c5765f10",
     "title": "zapatilla-black",
-    "photo": "zapatilla-black.jpg",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2066c8823f7c4207a61d420b419f8f95_9366/YEEZY_BOOST_350_V2_Gris_HQ7045_01_standard.jpg",
     "category": "calzado",
     "price": 100,
     "stock": 1000
-  },
-  {
-    "id": "348da240f5619bad9e61cbd0",
-    "title": "remera-black",
-    "photo": "remera-black.jpg",
-    "category": "indumentaria",
-    "price": 20,
-    "stock": 500
-  },
-  {
-    "id": "0484b96997128cd680872375",
-    "title": "pantalon-black",
-    "photo": "pantalon-black.jpg",
-    "category": "indumentaria",
-    "price": 30,
-    "stock": 600
-  },
-  {
-    "id": "7a557215b7a3c3cccb3dfa0f",
-    "title": "gorra-black",
-    "photo": "gorra-black.jpg",
-    "category": "accesorios",
-    "price": 10,
-    "stock": 1200
-  },
-  {
-    "id": "444143b5544da34b0cbe0971",
-    "title": "guantes-black",
-    "photo": "guantes-black.jpg",
-    "category": "accesorios",
-    "price": 8,
-    "stock": 200
   },
   {
     "id": "e89a7aca3886ea09aeb77450",
     "title": "zapatilla-grey",
-    "photo": "zapatilla-grey.jpg",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/924b881a6bdb41fc842aaf8800a8c506_9366/Zapatillas_Ozelle_Cloudfoam_Gris_H03510_01_standard.jpg",
     "category": "calzado",
     "price": 100,
     "stock": 1000
-  },
-  {
-    "id": "ba5e3e4117ad551ca772299d",
-    "title": "remera-grey",
-    "photo": "remera-grey.jpg",
-    "category": "indumentaria",
-    "price": 20,
-    "stock": 500
-  },
-  {
-    "id": "2eec10d2a40cf12273d0baae",
-    "title": "pantalon-grey",
-    "photo": "pantalon-grey.jpg",
-    "category": "indumentaria",
-    "price": 30,
-    "stock": 600
-  },
-  {
-    "id": "1a421720ed3ae55535fce0c4",
-    "title": "gorra-grey",
-    "photo": "gorra-grey.jpg",
-    "category": "accesorios",
-    "price": 10,
-    "stock": 1200
-  },
-  {
-    "id": "6ae491a8307cd87b01abc651",
-    "title": "guantes-grey",
-    "photo": "guantes-grey.jpg",
-    "category": "accesorios",
-    "price": 8,
-    "stock": 200
   },
   {
     "id": "5dd83ed78c69499f4c5d5b05",
     "title": "zapatilla-blue",
-    "photo": "zapatilla-blue.jpg",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e7d955c4f1fa4f179a4e8308ea7ca8fc_9366/Zapatillas_SL_72_RS_Azul_IG2132_01_standard.jpg",
     "category": "calzado",
     "price": 100,
     "stock": 1000
   },
   {
-    "id": "facdfe792f344c5b967e68d5",
-    "title": "remera-blue",
-    "photo": "remera-blue.jpg",
-    "category": "indumentaria",
-    "price": 20,
-    "stock": 500
-  },
-  {
-    "id": "63981c2acc6b3cc8f84edb17",
-    "title": "pantalon-blue",
-    "photo": "pantalon-blue.jpg",
-    "category": "indumentaria",
-    "price": 30,
-    "stock": 600
-  },
-  {
-    "id": "bd484d406a0e0237c28132d1",
-    "title": "gorra-blue",
-    "photo": "gorra-blue.jpg",
-    "category": "accesorios",
-    "price": 10,
-    "stock": 1200
-  },
-  {
-    "id": "ba18c45700f5a2d3019f7d35",
-    "title": "guantes-blue",
-    "photo": "guantes-blue.jpg",
-    "category": "accesorios",
-    "price": 8,
+    "id": "12b4b3ea18108306212c7f56",
+    "title": "zapatilla-aluminium ",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6ca592aa84f94c7d99705620ef42dae5_9366/Zapatillas_Forum_Bold_Beige_IE4763_01_standard.jpg",
+    "category": "calzado",
+    "price": 50,
     "stock": 200
+  },
+  {
+    "id": "1fd73e7091e64c1912219aac",
+    "title": "zapatilla-orange ",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/685ed00544c04291bc642f27b1056694_9366/Zapatillas_Handball_Spezial_Rojo_IG6191_01_standard.jpg",
+    "category": "calzado",
+    "price": 50,
+    "stock": 200
+  },
+  {
+    "id": "6f35d596b8107e38e0b14a33",
+    "title": "zapatilla-red ",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/faa71d9ca6fa4964b7cf3f68cd117c9f_9366/SL_72_RS_Granate_JI1280_01_standard.jpg",
+    "category": "calzado",
+    "price": 50,
+    "stock": 200
+  },
+  {
+    "id": "eea8f0d438e9bad60df46ddc",
+    "title": "zapatilla-green ",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f7e34ddbd1a04de889d5af1e0138830a_9366/YEEZY_BOOST_350_V2_Blanco_HQ2060_01_standard.jpg",
+    "category": "calzado",
+    "price": 50,
+    "stock": 200
+  },
+  {
+    "id": "27ae02cffd42e54a1f9f288b",
+    "title": "zapatilla-black-orange",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b4e8fe7a1daf4c61b40e5a781e491459_9366/Zapatillas_Dame_Certified_2_Negro_IE7791_01_standard.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "76b65e3162d6993a5a8f690c",
+    "title": "zapatilla-total-black",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a5b9d63cc9c42939a44ae920127cb49_9366/Zapatillas_adi2000_Negro_GX4634_01_standard.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "e1d4c27608ae56e52a6f9c59",
+    "title": "botines-predator-elite-core-black",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/314dc0db8b7d4194b6f923026b52cb19_9366/Botines_Predator_Elite_Sin_Cordones_Terreno_Firme_Negro_IE1805_HM4.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "aef70220c16e25bc18952e07",
+    "title": "botines-predator-accuracy-cloud-white",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e7fd60d2ccf348898d98af7900b98259_9366/Botines_Predator_Accuracy.3_Terreno_Firme_Blanco_HQ1077_01_standard_hover.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "fd9509b80a72fe439d17e43b",
+    "title": "botines-predator-accuracy-team-solar",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5b929cb08fad46668cdaafa300829ca0_9366/Botines_Predator_Accuracy.4_Pasto_Sintetico_Naranja_GW4646_01_standard_hover.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "1320f1aedad22b59fac9c52e",
+    "title": "botines-predator-accuracy-core-pink-black",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b7b1add61ad04e62874aaf7100da56f0_9366/Botines_Predator_Accuracy.1_Pasto_Sintetico_Negro_GW4633_01_standard.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "157508291fc7be2d294f26ed",
+    "title": "botines-copa-pure-lucid-lemon",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/82e3deddcdf141c5a073b5476e680123_9366/Botines_Copa_Pure_II.3_Terreno_Firme_Blanco_HQ8984_01_standard_hover.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "7d5054df0d435722cc61ce1c",
+    "title": "botines-gamemode-fg-Bright-cyan",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/df94a22ca5624b43947caeec00dd5c8d_9366/GAMEMODE_FG_Turquesa_GV6861_01_standard_hover.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "1d67a9557a941e0713d294b9",
+    "title": "botines-x-crazyfast-bright-royal",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/619508cc1b7c4528aebd06e34e7c7544_9366/X_CRAZYFAST_SG_Azul_IE4200_01_standard.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "7350c18bc353a8dc5b6ab1a4",
+    "title": "botines-x-speedflow-messi-Bright-Yellow",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7d3ed735351747fe898fad7c008f0e90_9366/Botines_X_Speedflow._Messi.3_Pasto_Sintetico_Dorado_GW7423_01_standard.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "4d0982e949ae4950e9bac323",
+    "title": "botines-x-crazyfast-messi-silver-metallic",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3771a60956c84d0a8784a07eb8b2bcdd_9366/Botines_X_Crazyfast_Messi.1_Terreno_Firme_Plateado_IE4079_HM4.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "31ca2b5d70c6fe7787187ad4",
+    "title": "botines-x-copa-pure-team-solar",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/addc7323865d4ce8940dafbd00787922_9366/Botines_Copa_Pure_Terreno_Firme_Blanco_HQ8894_01_standard.jpg",
+    "category": "calzado",
+    "price": "50",
+    "stock": "200"
+  },
+  {
+    "id": "b61255ed356ffb3391956cef",
+    "title": "camiseta-titular-argentina",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c4c8dee7623f4209b76dfd333a68c812_9366/Camiseta_Titular_Argentina_24_Blanco_IP8400_01_laydown.jpg",
+    "category": "ropa",
+    "price": "100",
+    "stock": "80"
+  },
+  {
+    "id": "8a6ee6bb4f95095d95b287a4",
+    "title": "camiseta-alternativa-argentina",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/29825b2765df4f449134febbd28f4f66_9366/Camiseta_Alternativa_Argentina_24_Azul_IP8403_01_laydown.jpg",
+    "category": "ropa",
+    "price": "100",
+    "stock": "80"
+  },
+  {
+    "id": "f964706bf269f45e7dfd494f",
+    "title": "camiseta-titular-boca-juniors",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/43b3d5dca79c4970ba7d510045536008_9366/Camiseta_Titular_Boca_Juniors_23-24_Azul_IV1922_01_laydown.jpg",
+    "category": "ropa",
+    "price": "100",
+    "stock": "80"
+  },
+  {
+    "id": "9e952a02b79d7782442a988a",
+    "title": "camiseta-alternativa-boca-juniors",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8025f7db12fe494594581fb2825e7ab5_9366/Camiseta_Tercer_Uniforme_Boca_Juniors_24-25_Azul_IP6072_01_laydown.jpg",
+    "category": "ropa",
+    "price": "100",
+    "stock": "80"
+  },
+  {
+    "id": "ea2bf9e7ca5de6bd72eeadec",
+    "title": "camiseta-titular-river-plate",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/084e816235e04950b8dcd9854bd6a756_9366/Camiseta_Titular_Authentic_River_Plate_23-24_Blanco_HT3678_01_laydown.jpg",
+    "category": "ropa",
+    "price": "100",
+    "stock": "80"
+  },
+  {
+    "id": "36f32f20178a93e33930e939",
+    "title": "camiseta-alternativa-river-plate",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6e7d84333ba440e8a7405e729f9a485e_9366/Camiseta_Tercer_Uniforme_River_Plate_24-25_Gris_IP6119_01_laydown.jpg",
+    "category": "ropa",
+    "price": "100",
+    "stock": "80"
+  },
+  {
+    "id": "9a389fc00627021be5930e09",
+    "title": "camiseta-titular-real-madrid",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4125cf575a4f420aa9390f8c42151e56_9366/Camiseta_Titular_Real_Madrid_23-24_Blanco_HR3796_HM30.jpg",
+    "category": "ropa",
+    "price": "100",
+    "stock": "80"
+  },
+  {
+    "id": "8998537d2e60390e9f682ac1",
+    "title": "camiseta-alternativa-real-madrid",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c8f1e07428404a1cbfde255fbeaf4035_9366/Camiseta_Suplente_Real_Madrid_23-24_Azul_IJ5901_HM30.jpg",
+    "category": "ropa",
+    "price": "100",
+    "stock": "80"
+  },
+  {
+    "id": "480d36f3caafa4ed5d9b414c",
+    "title": "camiseta-titular-juventus",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cd1cd6cace0d47f98144abc8010cbe47_9366/Camiseta_Local_Juventus_20-21_UNISEX_Blanco_EI9894_01_laydown.jpg",
+    "category": "ropa",
+    "price": "100",
+    "stock": "80"
+  },
+  {
+    "id": "eeb2b5be24f15479a535c302",
+    "title": "camiseta-alternativa-juventus",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/820ff60b97a54ab28a8665a4fb8e6211_9366/Camiseta_Uniforme_Titular_Juventus_23-24_Negro_HR8256_HM30.jpg",
+    "category": "ropa",
+    "price": "100",
+    "stock": "80"
+  },
+  {
+    "id": "24e4643f60b6e53c6c40645e",
+    "title": "musculosa-tenis-mujer",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b0cb6469d6564e9cb1b8af0f00ca066e_9366/Musculosa_Club_para_Tenis_Negro_HZ4281_01_laydown.jpg",
+    "category": "ropa",
+    "price": "80",
+    "stock": "250"
+  },
+  {
+    "id": "2b430666adc16c6e73696ea8",
+    "title": "musculosa-tenis-white-mujer",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b1ddada015864d3fa9baaf0201030767_9366/Musculosa_Club_para_Tenis_Blanco_HZ4282_01_laydown.jpg",
+    "category": "ropa",
+    "price": "80",
+    "stock": "250"
+  },
+  {
+    "id": "9e12216bb4ed2bfd30b6d089",
+    "title": "remera-otr-black-mujer",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/74cec7d15fea431c88f08f265bdf9c2a_9366/OTR_B_TEE_Negro_IN2961_01_laydown.jpg",
+    "category": "ropa",
+    "price": "80",
+    "stock": "250"
+  },
+  {
+    "id": "da21813b6be712a930e9f7c2",
+    "title": "remera-otr-white-mujer",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0e6d3828a8a6443d888faefa00c202ac_9366/Remera_Club_para_Tenis_Blanco_HS1449_01_laydown.jpg",
+    "category": "ropa",
+    "price": "80",
+    "stock": "250"
+  },
+  {
+    "id": "f81ef55f19dd6918e30fde81",
+    "title": "remera-otr-magenta-mujer",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/88922ff3b6c64d0386208909534d70aa_9366/Remera_Club_para_Tenis_Rosa_IT6579_01_laydown.jpg",
+    "category": "ropa",
+    "price": "80",
+    "stock": "250"
+  },
+  {
+    "id": "947124a110503f8ddc21ab09",
+    "title": "remera-future-icons-black-mujer",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/55af20cbf73e4a409814afc8ff620b51_9366/Remera_Future_Icons_3_Tiras_Negro_IP1571_01_laydown.jpg",
+    "category": "ropa",
+    "price": "80",
+    "stock": "250"
+  },
+  {
+    "id": "a7aaf13e484b02908bea5d5b",
+    "title": "remera-future-icons-white-mujer",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b0bafb81206a485c918d3d5ca7ca7d8c_9366/Remera_3_Tiras_Blanco_IR8051_01_laydown.jpg",
+    "category": "ropa",
+    "price": "80",
+    "stock": "250"
+  },
+  {
+    "id": "7ce096a4f86f278d4a283316",
+    "title": "remera-adicolor-colassics-violet-mujer",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/714490fb523a438f9b9af78fa5232fea_9366/Remera_Adicolor_Classics_3_Tiras_Violeta_IL3868_01_laydown.jpg",
+    "category": "ropa",
+    "price": "80",
+    "stock": "250"
+  },
+  {
+    "id": "99a29537320b02d42a3cb9db",
+    "title": "remera-adicolor-colassics-black-mujer",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2d2afb68b68c448385dec4683947f034_9366/Remera_Adicolor_Classics_3_Tiras_Negro_IK4049_01_laydown.jpg",
+    "category": "ropa",
+    "price": "80",
+    "stock": "250"
+  },
+  {
+    "id": "702b97ee44922382d0164ec7",
+    "title": "remera-running-wonder-steel-mujer",
+    "photo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/63b80407d6ba4644a577aeb60116396d_9366/Remera_de_Running_Run_It_Azul_HL1991_01_laydown.jpg",
+    "category": "ropa",
+    "price": "80",
+    "stock": "250"
   }
 ]

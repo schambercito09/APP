@@ -1,0 +1,13 @@
+<h2 class="d-flex flex-column align-items-center" >USERS</h2>
+{{#each users}}
+
+    <article class="d-flex flex-column align-items-center">
+        <form class="d-flex flex-column">
+            <a href="/users/{{this.id }}" class="m-3">{{this.email}}</a>
+        </form>
+    </article>
+
+{{/each}}
+
+
+

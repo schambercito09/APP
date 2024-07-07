@@ -19,14 +19,13 @@ class UserManager {
 
   async create(data) {
     try {
-      if (!data.email || !data.password || !data.role) {
+      if (!data.email || !data.password) {
         throw new Error("Faltan datos para crear el usuario");
       } else {
         const user = {
           id: crypto.randomBytes(12).toString("hex"),
           photo:
-            data.photo ||
-            "https://upload.wikimedia.org/wikipedia/commons/2/2c/Default_pfp.svg",
+            data.photo || "https://upload.wikimedia.org/wikipedia/commons/2/2c/Default_pfp.svg",
           email: data.email,
           password: data.password,
           role: data.role || 0,
