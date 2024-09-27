@@ -1,0 +1,30 @@
+[
+  {
+    "id": "eebb5304a8b122f11ce4cf95",
+    "photo": "photo.png",
+    "email": "coder@gmail.com",
+    "password": "hola1234",
+    "role": "user"
+  },
+  {
+    "id": "f466e04514d2690c5bb93004",
+    "photo": "photo2.png",
+    "email": "coder2@gmail.com",
+    "password": "hola12345",
+    "role": "user"
+  },
+  {
+    "id": "c10b343aeec89674d8668bc1",
+    "photo": "photo3.png",
+    "email": "coder3@gmail.com",
+    "password": "hola123456",
+    "role": "user"
+  },
+  {
+    "id": "4b09a51692471ed42a08274d",
+    "photo": "photo4.png",
+    "email": "coder4@gmail.com",
+    "password": "hola1234567",
+    "role": "user"
+  }
+]
